@@ -33,4 +33,4 @@ view_state=pdk.ViewState(longitude=78.348516,
 
 # Render
 r = pdk.Deck(layers=[layers], initial_view_state=view_state)
-r.to_html('demo.html')
+st.write(r)
